@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2017, The Monero Project
+// Copyright (c) 2014-2017, The Monea Project
 // 
 // All rights reserved.
 // 
@@ -175,7 +175,7 @@ namespace daemonizer
     }
     else // interactive
     {
-      //LOG_PRINT_L0("Monero '" << MONERO_RELEASE_NAME << "' (v" << MONERO_VERSION_FULL);
+      //LOG_PRINT_L0("Monea '" << MONEA_RELEASE_NAME << "' (v" << MONEA_VERSION_FULL);
       return executor.run_interactive(vm);
     }
 

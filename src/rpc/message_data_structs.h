@@ -1,4 +1,4 @@
-// Copyright (c) 2016-2017, The Monero Project
+// Copyright (c) 2016-2017, The Monea Project
 // 
 // All rights reserved.
 // 

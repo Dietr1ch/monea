@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2017, The Monero Project
+// Copyright (c) 2014-2017, The Monea Project
 // 
 // All rights reserved.
 // 
@@ -36,12 +36,12 @@
 
 #include <string>
 
-#undef MONERO_DEFAULT_LOG_CATEGORY
-#define MONERO_DEFAULT_LOG_CATEGORY "daemon"
+#undef MONEA_DEFAULT_LOG_CATEGORY
+#define MONEA_DEFAULT_LOG_CATEGORY "daemon"
 
 namespace daemonize
 {
-  std::string const t_executor::NAME = "Monero Daemon";
+  std::string const t_executor::NAME = "Monea Daemon";
 
   void t_executor::init_options(
       boost::program_options::options_description & configurable_options
@@ -59,7 +59,7 @@ namespace daemonize
       boost::program_options::variables_map const & vm
     )
   {
-    LOG_PRINT_L0("Monero '" << MONERO_RELEASE_NAME << "' (v" << MONERO_VERSION_FULL << ") Daemonised");
+    LOG_PRINT_L0("Monea '" << MONEA_RELEASE_NAME << "' (v" << MONEA_VERSION_FULL << ") Daemonised");
     return t_daemon{vm};
   }
 

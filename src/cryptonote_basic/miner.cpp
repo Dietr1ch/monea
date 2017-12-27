@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2017, The Monero Project
+// Copyright (c) 2014-2017, The Monea Project
 //
 // All rights reserved.
 //
@@ -69,8 +69,8 @@
 #include <unistd.h>
 #endif
 
-#undef MONERO_DEFAULT_LOG_CATEGORY
-#define MONERO_DEFAULT_LOG_CATEGORY "miner"
+#undef MONEA_DEFAULT_LOG_CATEGORY
+#define MONEA_DEFAULT_LOG_CATEGORY "miner"
 
 using namespace epee;
 

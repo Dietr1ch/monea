@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2017, The Monero Project
+// Copyright (c) 2014-2017, The Monea Project
 //
 // All rights reserved.
 //
@@ -35,7 +35,7 @@
 
 using namespace std;
 
-namespace Monero {
+namespace Monea {
 namespace Utils {
 
 bool isAddressLocal(const std::string &address)
@@ -58,4 +58,4 @@ void onStartup()
 
 } // namespace
 
-namespace Bitmonero = Monero;
+namespace Bitmonea = Monea;

@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2017, The Monero Project
+// Copyright (c) 2014-2017, The Monea Project
 //
 // All rights reserved.
 //
@@ -46,8 +46,8 @@
 #include "common/perf_timer.h"
 #include "crypto/hash.h"
 
-#undef MONERO_DEFAULT_LOG_CATEGORY
-#define MONERO_DEFAULT_LOG_CATEGORY "txpool"
+#undef MONEA_DEFAULT_LOG_CATEGORY
+#define MONEA_DEFAULT_LOG_CATEGORY "txpool"
 
 DISABLE_VS_WARNINGS(4244 4345 4503) //'boost::foreach_detail_::or_' : decorated name length exceeded, name was truncated
 

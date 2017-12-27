@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2017, The Monero Project
+// Copyright (c) 2014-2017, The Monea Project
 //
 // All rights reserved.
 //
@@ -32,7 +32,7 @@
 #include <string>
 #include <ctime>
 
-namespace Monero {
+namespace Monea {
 
 class TransactionHistoryImpl;
 
@@ -84,4 +84,4 @@ private:
 
 } // namespace
 
-namespace Bitmonero = Monero;
+namespace Bitmonea = Monea;

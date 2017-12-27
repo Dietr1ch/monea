@@ -1,0 +1,21 @@
+[Unit]
+Description=Monea Full Node
+After=network.target
+
+[Service]
+User=monea
+Group=monea
+WorkingDirectory=~
+RuntimeDirectory=monea
+
+Type=forking
+PIDFile=/run/monea/monead.pid
+
+ExecStart=/usr/bin/monead --config-file /etc/monead.conf \
+    --detach --pidfile /run/monea/monead.pid
+
+Restart=always
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

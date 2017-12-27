@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2017, The Monero Project
+// Copyright (c) 2014-2017, The Monea Project
 //
 // All rights reserved.
 //
@@ -47,10 +47,10 @@
 using namespace std;
 using namespace cryptonote;
 
-#undef MONERO_DEFAULT_LOG_CATEGORY
-#define MONERO_DEFAULT_LOG_CATEGORY "WalletAPI"
+#undef MONEA_DEFAULT_LOG_CATEGORY
+#define MONEA_DEFAULT_LOG_CATEGORY "WalletAPI"
 
-namespace Monero {
+namespace Monea {
 
 namespace {
     // copy-pasted from simplewallet
@@ -1806,4 +1806,4 @@ bool WalletImpl::useForkRules(uint8_t version, int64_t early_blocks) const
 
 } // namespace
 
-namespace Bitmonero = Monero;
+namespace Bitmonea = Monea;

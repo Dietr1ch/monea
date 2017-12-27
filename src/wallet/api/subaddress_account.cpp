@@ -1,4 +1,4 @@
-// Copyright (c) 2017, The Monero Project
+// Copyright (c) 2017, The Monea Project
 //
 // All rights reserved.
 //
@@ -34,7 +34,7 @@
 
 #include <vector>
 
-namespace Monero {
+namespace Monea {
   
 SubaddressAccount::~SubaddressAccount() {}
   

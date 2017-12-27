@@ -1,4 +1,4 @@
-// Copyright (c) 2016, The Monero Project
+// Copyright (c) 2016, The Monea Project
 // 
 // All rights reserved.
 // 
@@ -30,8 +30,8 @@
 #include "misc_os_dependent.h"
 #include "perf_timer.h"
 
-#undef MONERO_DEFAULT_LOG_CATEGORY
-#define MONERO_DEFAULT_LOG_CATEGORY "perf"
+#undef MONEA_DEFAULT_LOG_CATEGORY
+#define MONEA_DEFAULT_LOG_CATEGORY "perf"
 
 namespace tools
 {

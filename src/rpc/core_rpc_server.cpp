@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2017, The Monero Project
+// Copyright (c) 2014-2017, The Monea Project
 // 
 // All rights reserved.
 // 
@@ -48,8 +48,8 @@ using namespace epee;
 #include "p2p/net_node.h"
 #include "version.h"
 
-#undef MONERO_DEFAULT_LOG_CATEGORY
-#define MONERO_DEFAULT_LOG_CATEGORY "daemon.rpc"
+#undef MONEA_DEFAULT_LOG_CATEGORY
+#define MONEA_DEFAULT_LOG_CATEGORY "daemon.rpc"
 
 #define MAX_RESTRICTED_FAKE_OUTS_COUNT 40
 #define MAX_RESTRICTED_GLOBAL_FAKE_OUTS_COUNT 5000
@@ -1619,7 +1619,7 @@ namespace cryptonote
   bool core_rpc_server::on_update(const COMMAND_RPC_UPDATE::request& req, COMMAND_RPC_UPDATE::response& res)
   {
     PERF_TIMER(on_update);
-    static const char software[] = "monero";
+    static const char software[] = "monea";
 #ifdef BUILD_TAG
     static const char buildtag[] = BOOST_PP_STRINGIZE(BUILD_TAG);
     static const char subdir[] = "cli";
@@ -1640,7 +1640,7 @@ namespace cryptonote
       res.status = "Error checking for updates";
       return true;
     }
-    if (tools::vercmp(version.c_str(), MONERO_VERSION) <= 0)
+    if (tools::vercmp(version.c_str(), MONEA_VERSION) <= 0)
     {
       res.update = false;
       res.status = CORE_RPC_STATUS_OK;

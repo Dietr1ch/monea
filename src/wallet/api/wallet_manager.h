@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2017, The Monero Project
+// Copyright (c) 2014-2017, The Monea Project
 //
 // All rights reserved.
 //
@@ -32,7 +32,7 @@
 #include "wallet/api/wallet2_api.h"
 #include <string>
 
-namespace Monero {
+namespace Monea {
 
 class WalletManagerImpl : public WalletManager
 {
@@ -74,4 +74,4 @@ private:
 
 } // namespace
 
-namespace Bitmonero = Monero;
+namespace Bitmonea = Monea;
